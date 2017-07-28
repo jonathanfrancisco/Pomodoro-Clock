@@ -1,0 +1,104 @@
+
+body {
+	color: #fff;
+	font-family: 'Acme';
+}
+
+
+
+
+
+#title {
+	text-align: center;
+	color: #c0392b;
+	font-size: 5.2em;
+	margin: 1em auto 0;
+}
+
+#title img {
+	max-width: 50px;
+}
+
+.container {
+	background-color: #c0392b;
+	background-color: #e74c3c;
+	width: 100%;
+	max-width: 380px;
+	margin: 1.5em auto 0em auto;
+	text-align: center;
+	box-shadow: 0px 1px 10px 1px #000;
+}
+
+.time-settings {
+	padding: 1.5em;
+}
+
+.time-settings p {
+	font-size: 1.5em;
+}
+
+.time-settings button {
+	background-color: #c0392b;
+	color: #fff;
+	border: none;
+	outline: none;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	margin-left: 5px;
+	font-size: 1em;
+}
+
+.time-settings button:hover {
+	cursor: pointer;
+}
+
+.time-display {
+	background-color: #c0392b;
+	height: 170px;
+	width: 200px;
+	border-radius: 50%;
+	margin: 30px auto;
+	padding-top: 2em;
+	position: relative;
+}
+
+
+.time-display img {
+	margin-top: -5em;
+	max-width: 105px;
+
+}
+
+.time-display h1 {
+	font-size: 3em;
+	margin: 0;
+}
+
+.time-display p {
+	margin: 0;
+	font-size: 1.5em;
+}
+
+
+
+#action-button  {
+	padding: 15px;
+	color: #fff;
+	background-color: #c0392b;
+	border: none;
+	width: 100%;
+	display: block;
+	font-size: 2em;
+	outline: none;
+}
+
+#action-button:hover {
+	cursor: pointer;
+}
+
+
+#action-button:active {
+	background-color: #000;
+	opacity: 0.2;
+}
